@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReusableCell" rowHeight="122" id="KGk-i7-Jjw" customClass="DataCell" customModule="CIU" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="479" height="122"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="479" height="122"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="BvU-Hq-Gos">
+                        <rect key="frame" x="10" y="10" width="459" height="100"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qve-gn-KvH">
+                                <rect key="frame" x="0.0" y="0.0" width="392.33333333333331" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FoodName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ir5-g9-k4m">
+                                        <rect key="frame" x="39" y="7.9999999999999991" width="66" height="15.666666666666664"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10/22/2003" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gk1-hF-GFy">
+                                        <rect key="frame" x="283.66666666666669" y="7.9999999999999991" width="69.666666666666686" height="15.666666666666664"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Total items: 5, Calories: 2500, Protien: 23g, Carbs: 87g, Fats: 40g " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivV-36-Wax">
+                                        <rect key="frame" x="9" y="7" width="374.33333333333331" height="86"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ivV-36-Wax" secondAttribute="trailing" constant="9" id="6au-py-iUJ"/>
+                                    <constraint firstItem="ir5-g9-k4m" firstAttribute="leading" secondItem="qve-gn-KvH" secondAttribute="leading" constant="39" id="Aq7-Xe-zsw"/>
+                                    <constraint firstItem="ivV-36-Wax" firstAttribute="top" secondItem="qve-gn-KvH" secondAttribute="top" constant="7" id="GRH-Nc-DVw"/>
+                                    <constraint firstItem="ivV-36-Wax" firstAttribute="leading" secondItem="qve-gn-KvH" secondAttribute="leading" constant="9" id="Pj2-SX-Nse"/>
+                                    <constraint firstAttribute="bottom" secondItem="ivV-36-Wax" secondAttribute="bottom" constant="7" id="dwX-ti-FQz"/>
+                                    <constraint firstItem="gk1-hF-GFy" firstAttribute="top" secondItem="qve-gn-KvH" secondAttribute="top" constant="8" id="e3h-x0-ogP"/>
+                                    <constraint firstItem="ir5-g9-k4m" firstAttribute="top" secondItem="qve-gn-KvH" secondAttribute="top" constant="8" id="iUg-Er-W6t"/>
+                                    <constraint firstAttribute="trailing" secondItem="gk1-hF-GFy" secondAttribute="trailing" constant="39" id="luS-c0-uLP"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9VN-q8-kYk">
+                                <rect key="frame" x="412.33333333333331" y="0.0" width="46.666666666666686" height="100"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="C42-NF-ZBm"/>
+                                    <constraint firstAttribute="width" constant="46.666666666666686" id="WDP-yc-fSX"/>
+                                    <constraint firstAttribute="height" constant="83" id="avA-n4-eMq"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="trash.fill" catalog="system" variableValue="5.5511151231257827e-17"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="removeButtonPresssed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Py1-AX-5aJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BvU-Hq-Gos" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="4Mo-Rw-Gzh"/>
+                    <constraint firstAttribute="trailing" secondItem="BvU-Hq-Gos" secondAttribute="trailing" constant="10" id="ijw-Il-xT7"/>
+                    <constraint firstItem="BvU-Hq-Gos" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="mk0-Pk-amw"/>
+                    <constraint firstAttribute="bottom" secondItem="BvU-Hq-Gos" secondAttribute="bottom" constant="10" id="wbS-Ko-Qgf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="DataLabel" destination="ivV-36-Wax" id="qtj-Z3-2mT"/>
+                <outlet property="DatePicked" destination="gk1-hF-GFy" id="eDq-z7-2mH"/>
+                <outlet property="FoodNameLabel" destination="ir5-g9-k4m" id="Q4r-Gu-XJH"/>
+                <outlet property="dataBubble" destination="qve-gn-KvH" id="F1B-Cb-FMh"/>
+                <outlet property="removeBtn" destination="9VN-q8-kYk" id="pBl-iE-3ii"/>
+            </connections>
+            <point key="canvasLocation" x="23.664122137404579" y="23.239436619718312"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="trash.fill" catalog="system" width="119" height="128"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
