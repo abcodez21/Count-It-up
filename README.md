@@ -1,6 +1,8 @@
 # CountItUP
 Count It Up assisst users in monitoring caloric intake. 
 
+## Screenshots
+![image](https://user-images.githubusercontent.com/124530691/217418340-531cc466-b335-44bd-93f6-0adbd8f06a16.png)
 
 ## Features
 * Create an account
@@ -10,9 +12,6 @@ Count It Up assisst users in monitoring caloric intake.
 * Select the date of the meal/food
 * Remove food/meal
 * Check meal history
-
-## Screenshots
-<img width="1000"  alt="image" src="https://user-images.githubusercontent.com/124530691/217414692-c0cc8391-d34b-4416-967e-db1cd56c8493.png">
 
 ## Get started
 
