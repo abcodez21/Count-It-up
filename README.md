@@ -21,29 +21,29 @@ Count It Up assisst users in monitoring caloric intake.
 
 
 ### Adding caloric intake
-1 once youre logged in you will be taken to the calculate page
-2 select a date
-3 enter all the inputs
-4 press the enter add button
+1. once youre logged in you will be taken to the calculate page
+2. select a date
+3. enter all the inputs
+4. press the enter add button
 
 https://user-images.githubusercontent.com/124530691/217422908-d78e528d-276f-430d-9516-042f3a8f3c9d.mov
 
 
 ### Caloric history 
-1 once youre logged in you will be taken to the calculate
-2 on the top right corner there is a history button, press it.
-3 select a date
-4 press the refresh 
+1. once youre logged in you will be taken to the calculate
+2. on the top right corner there is a history button, press it.
+3. select a date
+4. press the refresh 
 
 https://user-images.githubusercontent.com/124530691/217422865-c111cdba-c250-4737-b56b-5f4a81bd2b54.MP4
 
 
 ### Remove caloric intake 
-1 once youre logged in you will be taken to the calculate
-2 on the top right corner there is a history button, press it.
-3 select a date
-4 press the trash button 
-5 press the refresh button
+1. once youre logged in you will be taken to the calculate
+2. on the top right corner there is a history button, press it.
+3. select a date
+4. press the trash button 
+5. press the refresh button
 
 
 https://user-images.githubusercontent.com/124530691/217422111-ea244c7a-6f9f-45c4-b5e2-67778f8e57fc.MP4
