@@ -1,5 +1,5 @@
 # CountItUP
-Count It Up assisst users in monitoring caloric intake. 
+Count It Up assists users in monitoring caloric intake. 
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/124530691/217418340-531cc466-b335-44bd-93f6-0adbd8f06a16.png)
