@@ -12,7 +12,7 @@ Count It Up assisst users in monitoring caloric intake.
 * Check meal history
 
 ## Screenshots
-[calorie count.pdf](https://github.com/abcodez21/Count-It-up/files/10680965/calorie.count.pdf)
+<img width="1000"  alt="image" src="https://user-images.githubusercontent.com/124530691/217414692-c0cc8391-d34b-4416-967e-db1cd56c8493.png">
 
 ## Get started
 
@@ -20,8 +20,22 @@ Count It Up assisst users in monitoring caloric intake.
 * Once you open the app: login or create an account.
 * if you forgot your password: press the forgot password button 
 
+
 ### Adding caloric intake
+* once youre logged in you will be taken to the calculate page
+* select a date
+* enter all the inputs
+* press the enter add button
+
+### caloric history 
 * once youre logged in you will be taken to the calculate
+* on the top right corner there is a history button, press it.
+* select a date
+* press the refresh 
 
-### removing caloric intake
-
+### remove caloric intake 
+* once youre logged in you will be taken to the calculate
+* on the top right corner there is a history button, press it.
+* select a date
+* press the trash button 
+* press the refresh button
