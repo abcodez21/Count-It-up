@@ -38,3 +38,7 @@ Count It Up assisst users in monitoring caloric intake.
 * select a date
 * press the trash button 
 * press the refresh button
+
+
+https://user-images.githubusercontent.com/124530691/217422111-ea244c7a-6f9f-45c4-b5e2-67778f8e57fc.MP4
+
