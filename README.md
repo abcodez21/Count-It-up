@@ -26,11 +26,17 @@ Count It Up assisst users in monitoring caloric intake.
 * enter all the inputs
 * press the enter add button
 
+https://user-images.githubusercontent.com/124530691/217422908-d78e528d-276f-430d-9516-042f3a8f3c9d.mov
+
+
 ### caloric history 
 * once youre logged in you will be taken to the calculate
 * on the top right corner there is a history button, press it.
 * select a date
 * press the refresh 
+
+https://user-images.githubusercontent.com/124530691/217422865-c111cdba-c250-4737-b56b-5f4a81bd2b54.MP4
+
 
 ### remove caloric intake 
 * once youre logged in you will be taken to the calculate
