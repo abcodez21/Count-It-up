@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC09C1D12979740500B9F602 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC09C1D02979740500B9F602 /* GoogleService-Info.plist */; };
+		1D3B16E7700C42ABDBAAA610 /* Pods_CIU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C539E4CE972832DB5C968AE0 /* Pods_CIU.framework */; };
 		EC09C1D4297975F000B9F602 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EC09C1D3297975F000B9F602 /* FirebaseAnalytics */; };
 		EC09C1D6297975F000B9F602 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EC09C1D5297975F000B9F602 /* FirebaseAuth */; };
 		EC09C1D92979908500B9F602 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09C1D82979908500B9F602 /* Utilities.swift */; };
 		EC09C1DC297EB89600B9F602 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EC09C1DB297EB89600B9F602 /* FirebaseFirestore */; };
 		EC20139F2976FFF90026FE61 /* CalculateCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20139E2976FFF90026FE61 /* CalculateCV.swift */; };
+		ECA40E7C2995857C00CBB0B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECA40E7B2995857900CBB0B4 /* GoogleService-Info.plist */; };
+		ECA40E802995894300CBB0B4 /* info.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA40E7F2995894300CBB0B4 /* info.swift */; };
 		ECC563F029841CEA0031D487 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC563EF29841CEA0031D487 /* HistoryVC.swift */; };
 		ECC563F32985DA600031D487 /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC563F12985DA600031D487 /* DataCell.swift */; };
 		ECC563F42985DA600031D487 /* DataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC563F22985DA600031D487 /* DataCell.xib */; };
 		ECC563F6298614C50031D487 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC563F5298614C50031D487 /* Constants.swift */; };
 		ECC563FA298B53EC0031D487 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC563F9298B53EB0031D487 /* ForgetPasswordVC.swift */; };
-		ECC563FF298B69460031D487 /* info.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC563FE298B69450031D487 /* info.swift */; };
 		ECDF2B9C2973339C00A3BDC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF2B9B2973339C00A3BDC9 /* AppDelegate.swift */; };
 		ECDF2B9E2973339C00A3BDC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF2B9D2973339C00A3BDC9 /* SceneDelegate.swift */; };
 		ECDF2BA02973339C00A3BDC9 /* LogInCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDF2B9F2973339C00A3BDC9 /* LogInCV.swift */; };
@@ -29,15 +30,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC09C1D02979740500B9F602 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		68CB4D05160D2BB58E84BEE5 /* Pods-CIU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIU.release.xcconfig"; path = "Target Support Files/Pods-CIU/Pods-CIU.release.xcconfig"; sourceTree = "<group>"; };
+		717A653FD154B4E52680508A /* Pods-CIU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIU.debug.xcconfig"; path = "Target Support Files/Pods-CIU/Pods-CIU.debug.xcconfig"; sourceTree = "<group>"; };
+		C539E4CE972832DB5C968AE0 /* Pods_CIU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CIU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC09C1D82979908500B9F602 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		EC20139E2976FFF90026FE61 /* CalculateCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateCV.swift; sourceTree = "<group>"; };
+		ECA40E7B2995857900CBB0B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ECA40E7F2995894300CBB0B4 /* info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = info.swift; sourceTree = "<group>"; };
 		ECC563EF29841CEA0031D487 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 		ECC563F12985DA600031D487 /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
 		ECC563F22985DA600031D487 /* DataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataCell.xib; sourceTree = "<group>"; };
 		ECC563F5298614C50031D487 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ECC563F9298B53EB0031D487 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
-		ECC563FE298B69450031D487 /* info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = info.swift; path = "../../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/info.swift"; sourceTree = "<group>"; };
 		ECDF2B982973339C00A3BDC9 /* CIU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDF2B9B2973339C00A3BDC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECDF2B9D2973339C00A3BDC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,12 +61,31 @@
 				EC09C1D4297975F000B9F602 /* FirebaseAnalytics in Frameworks */,
 				EC09C1D6297975F000B9F602 /* FirebaseAuth in Frameworks */,
 				EC09C1DC297EB89600B9F602 /* FirebaseFirestore in Frameworks */,
+				1D3B16E7700C42ABDBAAA610 /* Pods_CIU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34816D77873C441EFFEB4D7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				717A653FD154B4E52680508A /* Pods-CIU.debug.xcconfig */,
+				68CB4D05160D2BB58E84BEE5 /* Pods-CIU.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0B2C74B787B98545CBD9E1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C539E4CE972832DB5C968AE0 /* Pods_CIU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC09C1D72979905A00B9F602 /* resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,17 +95,10 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
-		EC09C1DA297EB89600B9F602 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		ECC563FD298B69310031D487 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				ECC563FE298B69450031D487 /* info.swift */,
+				ECA40E7F2995894300CBB0B4 /* info.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -92,7 +108,8 @@
 			children = (
 				ECDF2B9A2973339C00A3BDC9 /* CIU */,
 				ECDF2B992973339C00A3BDC9 /* Products */,
-				EC09C1DA297EB89600B9F602 /* Frameworks */,
+				34816D77873C441EFFEB4D7F /* Pods */,
+				D0B2C74B787B98545CBD9E1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,8 +131,8 @@
 				ECDF2BB0297333DF00A3BDC9 /* Views */,
 				ECC563FD298B69310031D487 /* Models */,
 				ECDF2BA4297333A300A3BDC9 /* Assets.xcassets */,
+				ECA40E7B2995857900CBB0B4 /* GoogleService-Info.plist */,
 				ECDF2BA6297333A300A3BDC9 /* LaunchScreen.storyboard */,
-				EC09C1D02979740500B9F602 /* GoogleService-Info.plist */,
 				ECDF2BA9297333A300A3BDC9 /* Info.plist */,
 			);
 			path = CIU;
@@ -150,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECDF2BAC297333A300A3BDC9 /* Build configuration list for PBXNativeTarget "CIU" */;
 			buildPhases = (
+				C4B2EC3D9ABE2879C08E4665 /* [CP] Check Pods Manifest.lock */,
 				ECDF2B942973339C00A3BDC9 /* Sources */,
 				ECDF2B952973339C00A3BDC9 /* Frameworks */,
 				ECDF2B962973339C00A3BDC9 /* Resources */,
+				D8A4016DDC7FCC7273F44791 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,14 +229,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECDF2BA8297333A300A3BDC9 /* LaunchScreen.storyboard in Resources */,
-				EC09C1D12979740500B9F602 /* GoogleService-Info.plist in Resources */,
 				ECDF2BA5297333A300A3BDC9 /* Assets.xcassets in Resources */,
+				ECA40E7C2995857C00CBB0B4 /* GoogleService-Info.plist in Resources */,
 				ECC563F42985DA600031D487 /* DataCell.xib in Resources */,
 				ECDF2BA32973339C00A3BDC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4B2EC3D9ABE2879C08E4665 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CIU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A4016DDC7FCC7273F44791 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CIU/Pods-CIU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CIU/Pods-CIU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CIU/Pods-CIU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ECDF2B942973339C00A3BDC9 /* Sources */ = {
@@ -233,7 +294,7 @@
 				ECC563F029841CEA0031D487 /* HistoryVC.swift in Sources */,
 				ECDF2B9C2973339C00A3BDC9 /* AppDelegate.swift in Sources */,
 				ECC563F32985DA600031D487 /* DataCell.swift in Sources */,
-				ECC563FF298B69460031D487 /* info.swift in Sources */,
+				ECA40E802995894300CBB0B4 /* info.swift in Sources */,
 				ECDF2B9E2973339C00A3BDC9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +437,7 @@
 		};
 		ECDF2BAD297333A300A3BDC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717A653FD154B4E52680508A /* Pods-CIU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -410,6 +472,7 @@
 		};
 		ECDF2BAE297333A300A3BDC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CB4D05160D2BB58E84BEE5 /* Pods-CIU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

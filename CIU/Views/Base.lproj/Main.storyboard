@@ -158,7 +158,7 @@ layer.cornerRadius</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gae-p0-RLR">
                                 <rect key="frame" x="41" y="218.5" width="332" height="491"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ablaye.malick12@hotmail.com" placeholder="type your email" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c1O-WI-MUq">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="type your email" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c1O-WI-MUq">
                                         <rect key="frame" x="26" y="105" width="280" height="33"/>
                                         <color key="backgroundColor" systemColor="labelColor"/>
                                         <color key="tintColor" name="inputTextColor"/>
@@ -178,7 +178,7 @@ layer.cornerRadius</string>
                                             <segue destination="Rpr-Ri-Mxd" kind="presentation" modalPresentationStyle="fullScreen" id="3MI-7H-BL4"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="251" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="TEkane03" placeholder="type your password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="idj-P4-GpS">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="251" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="type your password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="idj-P4-GpS">
                                         <rect key="frame" x="26" y="193" width="280" height="33"/>
                                         <color key="backgroundColor" systemColor="labelColor"/>
                                         <color key="tintColor" name="inputTextColor"/>
@@ -840,7 +840,7 @@ layer.cornerRadius</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="087-Fd-GPF"/>
+        <segue reference="s1b-Zj-qeF"/>
         <segue reference="anV-on-Ne8"/>
     </inferredMetricsTieBreakers>
     <resources>

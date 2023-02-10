@@ -1,0 +1,6 @@
+framework module Pods_CIU {
+  umbrella header "Pods-CIU-umbrella.h"
+
+  export *
+  module * { export * }
+}
