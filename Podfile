@@ -1,11 +1,7 @@
-platform :ios, '13.0'
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '11.0'
 
 target 'CIU' do
-  
-  use_frameworks!
-  pod 'IQKeyboardManagerSwift'
-
-
-  # Pods for CIU
+ pod 'IQKeyboardManagerSwift'
 
 end

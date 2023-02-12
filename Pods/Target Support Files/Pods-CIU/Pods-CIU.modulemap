@@ -1,4 +1,4 @@
-framework module Pods_CIU {
+module Pods_CIU {
   umbrella header "Pods-CIU-umbrella.h"
 
   export *

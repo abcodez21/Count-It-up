@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -12,7 +13,7 @@
         <!--Forget PasswordVC-->
         <scene sceneID="nnZ-Gv-3ft">
             <objects>
-                <viewController id="Rpr-Ri-Mxd" customClass="ForgetPasswordVC" customModule="CIU" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Rpr-Ri-Mxd" customClass="CUIForgetPasswordVC" customModule="CIU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yXu-4g-HOW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,12 +136,9 @@ layer.cornerRadius</string>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="background" destination="KRG-Xt-THG" id="XMr-Rj-NDY"/>
-                        <outlet property="emailInput" destination="uay-SF-DJP" id="Ivd-HR-Ghn"/>
-                        <outlet property="errorLabel" destination="2qx-Lz-nws" id="qPc-B2-8XL"/>
-                        <outletCollection property="buttons" destination="MWw-DE-rKw" collectionClass="NSMutableArray" id="zef-NG-hjL"/>
+                        <outlet property="background" destination="KRG-Xt-THG" id="3UT-aR-XfP"/>
+                        <outlet property="errorLabel" destination="2qx-Lz-nws" id="vO0-b4-OQ1"/>
                         <outletCollection property="buttons" destination="srt-mz-I2Q" collectionClass="NSMutableArray" id="NNa-Os-Ayr"/>
-                        <outletCollection property="inputs" destination="uay-SF-DJP" collectionClass="NSMutableArray" id="K0n-AT-H2x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w41-p5-NnF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -150,13 +148,13 @@ layer.cornerRadius</string>
         <!--Log InCV-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="LogInCV" customModule="CIU" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="CUILogInCV" customModule="CIU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gae-p0-RLR">
-                                <rect key="frame" x="41" y="218.5" width="332" height="491"/>
+                                <rect key="frame" x="41" y="211.5" width="332" height="491"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="type your email" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c1O-WI-MUq">
                                         <rect key="frame" x="26" y="105" width="280" height="33"/>
@@ -260,7 +258,7 @@ layer.cornerRadius</string>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QzU-CR-ZVG">
-                                <rect key="frame" x="0.0" y="1" width="414" height="121"/>
+                                <rect key="frame" x="0.0" y="-6" width="414" height="121"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Count it up" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUO-pv-fN5">
                                         <rect key="frame" x="128" y="56" width="158" height="37"/>
@@ -277,7 +275,7 @@ layer.cornerRadius</string>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The password is invalid or the user does not have a password." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4VI-kg-8yP">
-                                <rect key="frame" x="26" y="147" width="362" height="47"/>
+                                <rect key="frame" x="26" y="140" width="362" height="47"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
@@ -329,7 +327,7 @@ layer.cornerRadius</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3HL-Eh-lXE">
-                                <rect key="frame" x="0.0" y="0.5" width="414" height="121"/>
+                                <rect key="frame" x="0.0" y="-6.5" width="414" height="121"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Count it up" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEK-IP-7qF">
                                         <rect key="frame" x="128" y="56" width="158" height="37"/>
@@ -346,7 +344,7 @@ layer.cornerRadius</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aFV-HS-KrG">
-                                <rect key="frame" x="41" y="178" width="332" height="556"/>
+                                <rect key="frame" x="41" y="171" width="332" height="556"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="type your name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bU0-74-lxb">
                                         <rect key="frame" x="28" y="111" width="276" height="34"/>
@@ -446,7 +444,7 @@ layer.cornerRadius</string>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The password is invalid or the user does not have a password." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MO4-Od-e8O">
-                                <rect key="frame" x="26" y="122.5" width="362" height="55"/>
+                                <rect key="frame" x="26" y="115.5" width="362" height="55"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
@@ -494,13 +492,13 @@ layer.cornerRadius</string>
         <!--CalculateCV-->
         <scene sceneID="1sV-zo-5sM">
             <objects>
-                <viewController id="vx5-eM-c2W" customClass="CalculateCV" customModule="CIU" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vx5-eM-c2W" customClass="CUICalculateCV" customModule="CIU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T7r-a0-Hal">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lUT-r0-TzS">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="121"/>
+                                <rect key="frame" x="0.0" y="-48" width="414" height="121"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculate" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Py4-wW-5mY">
                                         <rect key="frame" x="138.5" y="56" width="137.5" height="37"/>
@@ -539,10 +537,10 @@ layer.cornerRadius</string>
                                 </constraints>
                             </view>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="sd0-NW-Tya">
-                                <rect key="frame" x="143" y="144" width="128" height="34.5"/>
+                                <rect key="frame" x="143" y="96" width="128" height="34.5"/>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcr-C3-yvM">
-                                <rect key="frame" x="114" y="727" width="186" height="48"/>
+                                <rect key="frame" x="114" y="679" width="186" height="48"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Add">
@@ -553,7 +551,7 @@ layer.cornerRadius</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total items: , Calories: ,Protien: ,Carbs: ,Fats:" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P72-le-xuh">
-                                <rect key="frame" x="37" y="789" width="340" height="54"/>
+                                <rect key="frame" x="37" y="741" width="340" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="P72-le-xuh" secondAttribute="height" multiplier="170:27" id="TBw-to-B9Q"/>
                                 </constraints>
@@ -562,7 +560,7 @@ layer.cornerRadius</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iAj-OI-M6Z">
-                                <rect key="frame" x="34" y="192.5" width="346" height="513"/>
+                                <rect key="frame" x="34" y="144.5" width="346" height="513"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAb-FH-PYU">
                                         <rect key="frame" x="128" y="18" width="90" height="31.5"/>
@@ -729,7 +727,7 @@ layer.cornerRadius</string>
         <!--HistoryVC-->
         <scene sceneID="0lm-FW-N5a">
             <objects>
-                <viewController id="3HY-k1-FvS" customClass="HistoryVC" customModule="CIU" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3HY-k1-FvS" customClass="CUIHistoryVC" customModule="CIU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pi3-Xn-P8a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -784,20 +782,8 @@ layer.cornerRadius</string>
                                     <constraint firstAttribute="width" secondItem="JdL-QM-GJb" secondAttribute="height" multiplier="129:35" id="vYE-l8-qJk"/>
                                 </constraints>
                             </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvz-3n-OVG">
-                                <rect key="frame" x="114" y="797.5" width="186" height="44"/>
-                                <color key="backgroundColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="arrow.clockwise" catalog="system" title="  Refresh">
-                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="addPressed:" destination="vx5-eM-c2W" eventType="touchUpInside" id="2Td-ue-9jm"/>
-                                    <action selector="checkDatePressed:" destination="3HY-k1-FvS" eventType="touchUpInside" id="bnh-zM-Prg"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total items: , Calories: ,Protien: ,Carbs: ,Fats:" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLU-Er-rAc">
-                                <rect key="frame" x="20" y="709" width="374" height="54"/>
+                                <rect key="frame" x="20" y="792" width="374" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -810,27 +796,22 @@ layer.cornerRadius</string>
                             <constraint firstItem="JMi-6n-puj" firstAttribute="leading" secondItem="YX9-EB-BGh" secondAttribute="leading" constant="20" id="3jf-hn-TTs"/>
                             <constraint firstItem="JnL-Cx-jPz" firstAttribute="top" secondItem="pi3-Xn-P8a" secondAttribute="top" id="3oC-6d-Gux"/>
                             <constraint firstItem="DLU-Er-rAc" firstAttribute="height" secondItem="pi3-Xn-P8a" secondAttribute="height" multiplier="0.0602679" id="Bfk-hF-EhH"/>
-                            <constraint firstItem="Vvz-3n-OVG" firstAttribute="top" secondItem="DLU-Er-rAc" secondAttribute="bottom" constant="34.5" id="Cwa-bt-gVB"/>
-                            <constraint firstItem="Vvz-3n-OVG" firstAttribute="height" secondItem="pi3-Xn-P8a" secondAttribute="height" multiplier="0.0491071" id="DCm-rc-z1T"/>
                             <constraint firstItem="JnL-Cx-jPz" firstAttribute="trailing" secondItem="YX9-EB-BGh" secondAttribute="trailing" id="G4J-Kd-c7Y"/>
                             <constraint firstItem="JdL-QM-GJb" firstAttribute="top" secondItem="JnL-Cx-jPz" secondAttribute="bottom" constant="29" id="H6p-vY-4iF"/>
-                            <constraint firstItem="Vvz-3n-OVG" firstAttribute="centerX" secondItem="YX9-EB-BGh" secondAttribute="centerX" id="Vm2-Jz-zfQ"/>
                             <constraint firstItem="DLU-Er-rAc" firstAttribute="centerX" secondItem="YX9-EB-BGh" secondAttribute="centerX" id="XsY-Ds-Lks"/>
-                            <constraint firstItem="DLU-Er-rAc" firstAttribute="top" secondItem="JMi-6n-puj" secondAttribute="bottom" constant="34.5" id="aWY-is-5La"/>
                             <constraint firstItem="DLU-Er-rAc" firstAttribute="leading" secondItem="YX9-EB-BGh" secondAttribute="leading" constant="20" id="dme-pE-coP"/>
                             <constraint firstItem="JMi-6n-puj" firstAttribute="height" secondItem="pi3-Xn-P8a" secondAttribute="height" multiplier="0.518973" id="eFH-lh-VGY"/>
                             <constraint firstItem="JdL-QM-GJb" firstAttribute="centerX" secondItem="YX9-EB-BGh" secondAttribute="centerX" id="g8k-lA-ZMl"/>
                             <constraint firstItem="JnL-Cx-jPz" firstAttribute="height" secondItem="pi3-Xn-P8a" secondAttribute="height" multiplier="0.135045" id="jOq-SY-IFr"/>
+                            <constraint firstItem="YX9-EB-BGh" firstAttribute="bottom" secondItem="DLU-Er-rAc" secondAttribute="bottom" constant="50" id="ken-uy-InO"/>
                             <constraint firstItem="JMi-6n-puj" firstAttribute="centerX" secondItem="YX9-EB-BGh" secondAttribute="centerX" id="tnA-JI-L7C"/>
                             <constraint firstItem="YX9-EB-BGh" firstAttribute="trailing" secondItem="JMi-6n-puj" secondAttribute="trailing" constant="20" id="up3-zu-y85"/>
-                            <constraint firstItem="Vvz-3n-OVG" firstAttribute="width" secondItem="pi3-Xn-P8a" secondAttribute="width" multiplier="0.449275" id="w6D-rX-69A"/>
                             <constraint firstItem="JnL-Cx-jPz" firstAttribute="leading" secondItem="YX9-EB-BGh" secondAttribute="leading" id="xOA-ia-VqP"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="Dataview" destination="JMi-6n-puj" id="Vmc-Vb-wRj"/>
                         <outlet property="datePicker" destination="JdL-QM-GJb" id="bNt-17-GyO"/>
-                        <outlet property="loadDataBtn" destination="Vvz-3n-OVG" id="hJz-Hn-ckg"/>
                         <outlet property="totalEveryThing" destination="DLU-Er-rAc" id="dbn-dz-eLm"/>
                     </connections>
                 </viewController>
@@ -840,37 +821,36 @@ layer.cornerRadius</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="s1b-Zj-qeF"/>
-        <segue reference="anV-on-Ne8"/>
+        <segue reference="TW3-kA-KCi"/>
+        <segue reference="yoJ-hN-5jx"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="arrow.clockwise" catalog="system" width="113" height="128"/>
         <namedColor name="inputTextColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </namedColor>
         <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray3Color">
-            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray4Color">
-            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
