@@ -26,7 +26,10 @@ Count It Up assists users in monitoring caloric intake.
 3. enter all the inputs
 4. press the enter add button
 
-https://user-images.githubusercontent.com/124530691/217422908-d78e528d-276f-430d-9516-042f3a8f3c9d.mov
+
+
+https://github.com/abcodez21/Count-It-up/assets/124530691/7f619126-96cf-43c9-9628-52e5120a2bfd
+
 
 
 ### Caloric history 
@@ -35,7 +38,10 @@ https://user-images.githubusercontent.com/124530691/217422908-d78e528d-276f-430d
 3. select a date
 4. press the refresh 
 
-https://user-images.githubusercontent.com/124530691/217422865-c111cdba-c250-4737-b56b-5f4a81bd2b54.MP4
+
+https://github.com/abcodez21/Count-It-up/assets/124530691/7ac22441-fad7-413a-9ad4-f97aa73a5e71
+
+
 
 
 ### Remove caloric intake 
@@ -46,5 +52,8 @@ https://user-images.githubusercontent.com/124530691/217422865-c111cdba-c250-4737
 5. press the refresh button
 
 
-https://user-images.githubusercontent.com/124530691/217422111-ea244c7a-6f9f-45c4-b5e2-67778f8e57fc.MP4
+
+https://github.com/abcodez21/Count-It-up/assets/124530691/d40955c1-83f7-496f-81dc-0232631a1941
+
+
 
